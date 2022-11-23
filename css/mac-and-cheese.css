@@ -1,0 +1,113 @@
+/* got too lazy to finish nutrition table, layout messy forgot to section, lack of knowledge, but completed minimum requirement 
+for future reference: layout html first on paper, plan classes and skeleton first
+mistakes: getting even margins and sectioning content for ease
+need to learn: dropdown, responsive css, good ui, getting fonts embedding videos, grid and flex*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 62.5%;
+    display: block;
+}
+
+
+body {
+    margin: 0 auto;
+    font-size: 1.6rem;
+    background: linear-gradient(
+        #f2d8ed,
+        #c7a3c0
+    );
+}
+
+a:link {
+    text-decoration: none;
+    color: #6e0158;
+}
+
+#header-1 {
+    width: 100%;
+    position: fixed;
+    background: #7a4d71;
+    margin-top: -10rem;
+    height: 5rem;
+    text-align: center;
+}
+
+
+.bottom-left {
+    margin-top: 2.5rem;
+}
+
+.bottom-left li {
+    list-style: underline;
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: .5rem;
+    margin-right: .5rem;
+}
+
+.bottom-link {
+    color: red;
+}
+
+#facts-box {
+    display: block;
+    margin: 0 auto;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    padding: 2.5rem;
+    width: 25%;
+    background: #c29fc7;
+    border: .5rem solid black;
+}
+
+#facts-box li {
+    list-style: none;
+}
+
+.small-box {
+    display: inline-block;
+    border-top: .1rem solid black;
+    margin-top: 2.5rem;
+}
+
+.headings {
+    text-align: left;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.main {
+    width: 40%;
+    margin: 0 auto;
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-bottom: -2.5rem;
+    margin-top: 10rem;
+}
+
+.main img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: .25rem solid black;  
+    margin-top: 5rem;
+    margin-bottom: 10rem;
+}
+
+.main img::after {
+    margin-top: -10rem;
+}
+
